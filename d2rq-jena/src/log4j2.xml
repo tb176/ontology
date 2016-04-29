@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- status=debug 可以查看log4j的装配过程 -->
+<configuration status="off">
+
+	<properties>
+		<property name="LOG_HOME">logs</property>
+		<!-- 日志备份目录 -->
+		<property name="BACKUP_HOME">{LOG_HOME}/backup</property>
+	</properties>
+	
+	<appenders>
+		<!-- 定义控制台输出 -->
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout>
+			<charset>UTF-8</charset>
+			<Pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %level [%thread][%file:%line] - %msg%n</Pattern>
+			</PatternLayout>
+		</Console>
+		
+		
+		<!-- ========类包的日志=============  -->
+		<!-- spring日志 -->
+		<RollingFile name="d2rqLog" 
+			fileName="${LOG_HOME}/d2rq_" 
+			filePattern="${LOG_HOME}/d2rq_%d{yyyy-MM-dd}.log">
+			<PatternLayout pattern="%date{yyyy-MM-dd HH:mm:ss.SSS} %level [%thread][%file:%line] - %msg%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+			</Policies>
+		</RollingFile>
+		
+		
+	</appenders>
+		
+	
+	
+	<loggers>
+	
+		<!-- Root Logger -->
+		<root level="debug">
+			<appender-ref ref="console" />
+		</root>
+		
+		
+		<!-- =======d2rq包的日志=====name的值为java中包名===level控制该包内程序日志输出级别=====  -->
+		<logger name="d2rq" level="debug"> 
+			<appender-ref ref="d2rqLog" />
+		</logger>
+		
+	</loggers>
+	
+</configuration>

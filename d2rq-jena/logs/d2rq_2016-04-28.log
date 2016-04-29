@@ -1,0 +1,12 @@
+2016-04-28 15:41:17.855 DEBUG [main][SparqlDemo.java:43] - --------------------读取的rdf文本内容-----------------
+2016-04-28 15:41:17.972 DEBUG [main][SparqlDemo.java:47] - sparql=SELECT ?x  WHERE { ?x  <http://www.w3.org/2001/vcard-rdf/3.0#FN>  "John Smith" } 
+2016-04-28 15:41:18.922 DEBUG [main][SparqlDemo.java:53] - ----------------sparql查询的内容------------------
+2016-04-28 15:41:18.953 DEBUG [main][SparqlDemo.java:56] - -----------results结果集=空
+2016-04-28 15:47:40.696 DEBUG [main][SparqlDemo.java:43] - --------------------读取的rdf文本内容-----------------
+2016-04-28 15:47:40.722 DEBUG [main][SparqlDemo.java:47] - sparql=SELECT ?x  WHERE { ?x  <http://www.w3.org/2001/vcard-rdf/3.0#FN>  "John Smith" } 
+2016-04-28 15:47:41.041 DEBUG [main][SparqlDemo.java:53] - ----------------sparql查询的内容------------------
+2016-04-28 15:47:41.056 DEBUG [main][SparqlDemo.java:56] - -----------results结果集=空
+2016-04-28 15:48:16.586 DEBUG [main][RDB2RDF.java:129] - --------------------select start-------------
+2016-04-28 15:48:17.684 DEBUG [main][RDB2RDF.java:136] - -------------------PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>PREFIX map: <file:///C:/Program%20Files/d2rq-0.8.1/ontology.rdf/>PREFIX owl: <http://www.w3.org/2002/07/owl#>PREFIX db: <file:///C:/Program%20Files/d2rq-0.8.1/ontology.rdf>PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>PREFIX vocab: <file:///C:/Program%20Files/d2rq-0.8.1/vocab/>SELECT DISTINCT ?class WHERE { [] a ?class } ORDER BY ?class
+2016-04-28 15:53:50.723 DEBUG [main][RDB2RDF.java:129] - --------------------select start-------------
+2016-04-28 15:53:51.545 DEBUG [main][RDB2RDF.java:136] - -------------------PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>PREFIX map: <file:///C:/Program%20Files/d2rq-0.8.1/ontology.rdf/>PREFIX owl: <http://www.w3.org/2002/07/owl#>PREFIX db: <file:///C:/Program%20Files/d2rq-0.8.1/ontology.rdf>PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>PREFIX vocab: <file:///C:/Program%20Files/d2rq-0.8.1/vocab/>SELECT DISTINCT ?class WHERE { [] a ?class } ORDER BY ?class

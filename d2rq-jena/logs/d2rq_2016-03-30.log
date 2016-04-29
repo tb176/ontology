@@ -1,0 +1,108 @@
+2016-03-30 10:06:47.970 DEBUG [main][RDB2RDF.java:77] - --------load start----------
+2016-03-30 10:06:48.075 DEBUG [main][RDB2RDF.java:84] - --------load end----------
+2016-03-30 10:06:48.076 DEBUG [main][RDB2RDF.java:86] - -----Time consuming:100ms
+2016-03-30 10:09:33.971 DEBUG [main][RDB2RDF.java:77] - --------load start----------
+2016-03-30 10:09:34.103 DEBUG [main][RDB2RDF.java:84] - --------load end----------
+2016-03-30 10:09:34.103 DEBUG [main][RDB2RDF.java:86] - ---generate RDF success takes :130ms
+2016-03-30 10:11:04.417 DEBUG [main][RDB2RDF.java:58] - --------load start----------
+2016-03-30 10:11:04.476 DEBUG [main][RDB2RDF.java:68] - --------load end----------
+2016-03-30 10:11:04.476 DEBUG [main][RDB2RDF.java:70] - ----generate .ttl txt success takes :57ms
+2016-03-30 10:21:33.016 DEBUG [main][RDB2RDF.java:57] - --------load start----------
+2016-03-30 10:22:02.362 DEBUG [main][RDB2RDF.java:57] - --------load start----------
+2016-03-30 10:22:23.662 DEBUG [main][RDB2RDF.java:57] - --------load start----------
+2016-03-30 10:22:23.716 DEBUG [main][RDB2RDF.java:65] - --------load end----------
+2016-03-30 10:22:23.716 DEBUG [main][RDB2RDF.java:67] - ----d2r server start  success takes :51ms
+2016-03-30 11:08:04.722 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:14:01.827 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:19:03.745 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:19:05.823 DEBUG [main][RDB2RDF.java:134] - true
+2016-03-30 11:19:05.824 DEBUG [main][RDB2RDF.java:135] - --------------------com.hp.hpl.jena.rdf.arp.JenaReader@3be3cd0d
+2016-03-30 11:21:20.078 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:21:22.215 DEBUG [main][RDB2RDF.java:134] - true
+2016-03-30 11:21:22.216 DEBUG [main][RDB2RDF.java:135] - --------------------com.hp.hpl.jena.rdf.arp.JenaReader@2e5e7733
+2016-03-30 11:21:39.527 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:21:41.605 DEBUG [main][RDB2RDF.java:134] - true
+2016-03-30 11:21:41.606 DEBUG [main][RDB2RDF.java:135] - --------------------com.hp.hpl.jena.rdf.arp.JenaReader@7369565d
+2016-03-30 11:23:35.115 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:23:37.246 DEBUG [main][RDB2RDF.java:134] - true
+2016-03-30 11:23:37.247 DEBUG [main][RDB2RDF.java:135] - --------------------com.hp.hpl.jena.rdf.arp.JenaReader@68ab2f32
+2016-03-30 11:23:37.248 DEBUG [main][RDB2RDF.java:138] - ( ?p = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/vocab/rel_paper_topic_TopicID> ) ( ?s = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#rel_paper_topic/5/2> ) ( ?o = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#topics/2> ) -> [Root]
+2016-03-30 11:23:37.249 DEBUG [main][RDB2RDF.java:138] - ( ?p = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/vocab/rel_paper_topic_TopicID> ) ( ?s = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#rel_paper_topic/2/3> ) ( ?o = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#topics/3> ) -> [Root]
+2016-03-30 11:23:37.250 DEBUG [main][RDB2RDF.java:138] - ( ?p = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/vocab/rel_paper_topic_TopicID> ) ( ?s = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#rel_paper_topic/5/3> ) ( ?o = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#topics/3> ) -> [Root]
+2016-03-30 11:23:37.250 DEBUG [main][RDB2RDF.java:138] - ( ?p = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/vocab/rel_paper_topic_TopicID> ) ( ?s = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#rel_paper_topic/1/5> ) ( ?o = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#topics/5> ) -> [Root]
+2016-03-30 11:23:37.251 DEBUG [main][RDB2RDF.java:138] - ( ?p = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/vocab/rel_paper_topic_TopicID> ) ( ?s = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#rel_paper_topic/2/5> ) ( ?o = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#topics/5> ) -> [Root]
+2016-03-30 11:23:37.251 DEBUG [main][RDB2RDF.java:138] - ( ?p = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/vocab/rel_paper_topic_TopicID> ) ( ?s = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#rel_paper_topic/6/5> ) ( ?o = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#topics/5> ) -> [Root]
+2016-03-30 11:23:37.252 DEBUG [main][RDB2RDF.java:138] - ( ?p = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/vocab/rel_paper_topic_TopicID> ) ( ?s = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#rel_paper_topic/4/10> ) ( ?o = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#topics/10> ) -> [Root]
+2016-03-30 11:23:37.253 DEBUG [main][RDB2RDF.java:138] - ( ?p = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/vocab/rel_paper_topic_TopicID> ) ( ?s = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#rel_paper_topic/4/11> ) ( ?o = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#topics/11> ) -> [Root]
+2016-03-30 11:23:37.254 DEBUG [main][RDB2RDF.java:138] - ( ?p = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/vocab/rel_paper_topic_TopicID> ) ( ?s = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#rel_paper_topic/6/11> ) ( ?o = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#topics/11> ) -> [Root]
+2016-03-30 11:23:37.254 DEBUG [main][RDB2RDF.java:138] - ( ?p = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/vocab/rel_paper_topic_TopicID> ) ( ?s = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#rel_paper_topic/5/13> ) ( ?o = <file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/doc/example/mapping.ttl#topics/13> ) -> [Root]
+2016-03-30 11:24:21.870 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:24:23.905 DEBUG [main][RDB2RDF.java:134] - true
+2016-03-30 11:24:23.906 DEBUG [main][RDB2RDF.java:135] - --------------------com.hp.hpl.jena.rdf.arp.JenaReader@2e5e7733
+2016-03-30 11:24:23.907 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:23.908 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:23.908 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:23.908 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:23.909 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:23.909 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:23.909 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:23.910 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:23.910 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:23.911 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:49.122 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:24:51.140 DEBUG [main][RDB2RDF.java:134] - true
+2016-03-30 11:24:51.141 DEBUG [main][RDB2RDF.java:135] - --------------------com.hp.hpl.jena.rdf.arp.JenaReader@3be3cd0d
+2016-03-30 11:24:51.142 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:51.143 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:51.143 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:51.143 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:51.144 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:51.144 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:51.144 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:51.144 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:51.145 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:24:51.145 DEBUG [main][RDB2RDF.java:138] - null
+2016-03-30 11:26:19.314 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:26:21.362 DEBUG [main][RDB2RDF.java:133] - false
+2016-03-30 11:26:21.363 DEBUG [main][RDB2RDF.java:134] - --------------------com.hp.hpl.jena.rdf.arp.JenaReader@750221a1
+2016-03-30 11:28:55.451 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:28:57.466 DEBUG [main][RDB2RDF.java:133] - 54
+2016-03-30 11:28:57.467 DEBUG [main][RDB2RDF.java:134] - --------------------com.hp.hpl.jena.rdf.arp.JenaReader@50a09f36
+2016-03-30 11:29:29.754 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:29:46.752 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:29:48.714 DEBUG [main][RDB2RDF.java:133] - com.hp.hpl.jena.sparql.engine.ResultSetStream@33f979cb
+2016-03-30 11:29:48.715 DEBUG [main][RDB2RDF.java:134] - --------------------com.hp.hpl.jena.rdf.arp.JenaReader@3fab1915
+2016-03-30 11:36:35.083 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:36:37.134 DEBUG [main][RDB2RDF.java:133] - com.hp.hpl.jena.sparql.engine.ResultSetStream@50a09f36
+2016-03-30 11:36:37.135 DEBUG [main][RDB2RDF.java:134] - --------------------com.hp.hpl.jena.rdf.arp.JenaReader@6134bb94
+2016-03-30 11:41:44.231 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:41:46.363 DEBUG [main][RDB2RDF.java:133] - com.hp.hpl.jena.sparql.engine.ResultSetStream@6134bb94
+2016-03-30 11:42:49.838 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:42:51.827 DEBUG [main][RDB2RDF.java:133] - com.hp.hpl.jena.sparql.engine.ResultSetStream@50a09f36
+2016-03-30 11:43:44.558 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:43:46.578 DEBUG [main][RDB2RDF.java:133] - com.hp.hpl.jena.sparql.engine.ResultSetStream@6134bb94
+2016-03-30 11:44:18.323 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:44:20.285 DEBUG [main][RDB2RDF.java:133] - -------------q-----------file:///D:/Users/db2admin/Workspaces/MyEclipse/jena/
+2016-03-30 11:44:20.285 DEBUG [main][RDB2RDF.java:134] - ===============+0
+2016-03-30 11:45:09.330 DEBUG [main][RDB2RDF.java:117] - --------------------select start-------------
+2016-03-30 11:45:11.411 DEBUG [main][RDB2RDF.java:133] - -------------q-----------symbol:http://jena.hpl.hp.com/2003/07/query/SPARQL_11
+2016-03-30 11:45:11.411 DEBUG [main][RDB2RDF.java:134] - ===============+0
+2016-03-30 14:50:25.581 DEBUG [main][RDB2RDF.java:116] - --------------------select start-------------
+2016-03-30 14:50:27.325 DEBUG [main][RDB2RDF.java:132] - -------------q-----------symbol:http://jena.hpl.hp.com/2003/07/query/SPARQL_11
+2016-03-30 14:50:27.325 DEBUG [main][RDB2RDF.java:133] - ===============+0
+2016-03-30 15:10:28.545 DEBUG [main][RDB2RDF.java:123] - --------------------select start-------------
+2016-03-30 15:10:30.180 DEBUG [main][RDB2RDF.java:135] - -------------q-----------symbol:http://jena.hpl.hp.com/2003/07/query/SPARQL_11
+2016-03-30 15:10:30.181 DEBUG [main][RDB2RDF.java:136] - ===============+0
+2016-03-30 15:25:41.222 DEBUG [main][RDB2RDF.java:123] - --------------------select start-------------
+2016-03-30 15:25:42.887 DEBUG [main][RDB2RDF.java:135] - -------------q-----------symbol:http://jena.hpl.hp.com/2003/07/query/SPARQL_11
+2016-03-30 15:25:42.887 DEBUG [main][RDB2RDF.java:136] - ===============+0
+2016-03-30 15:26:34.414 DEBUG [main][RDB2RDF.java:123] - --------------------select start-------------
+2016-03-30 15:26:36.113 DEBUG [main][RDB2RDF.java:135] - -------------q-----------symbol:http://jena.hpl.hp.com/2003/07/query/SPARQL_11
+2016-03-30 15:26:36.114 DEBUG [main][RDB2RDF.java:136] - ===============+0
+2016-03-30 15:26:36.120 DEBUG [main][RDB2RDF.java:141] - -------d2rqModel---null
+2016-03-30 15:27:29.259 DEBUG [main][RDB2RDF.java:123] - --------------------select start-------------
+2016-03-30 15:27:30.916 DEBUG [main][RDB2RDF.java:135] - -------------q-----------symbol:http://jena.hpl.hp.com/2003/07/query/SPARQL_11
+2016-03-30 15:27:30.917 DEBUG [main][RDB2RDF.java:136] - ===============+0
+2016-03-30 15:27:31.373 DEBUG [main][RDB2RDF.java:141] - -------d2rqModel--- {db:#rel_paper_topic/5/2 @vocab:rel_paper_topic_TopicID db:#topics/2; db:#rel_paper_topic/2/3 @vocab:rel_paper_topic_TopicID db:#topics/3; db:#rel_paper_topic/5/3 @vocab:rel_paper_topic_TopicID db:#topics/3; db:#rel_paper_topic/1/5 @vocab:rel_paper_topic_TopicID db:#topics/5; db:#rel_paper_topic/2/5 @vocab:rel_paper_topic_TopicID db:#topics/5; db:#rel_paper_topic/6/5 @vocab:rel_paper_topic_TopicID db:#topics/5; db:#rel_paper_topic/4/10 @vocab:rel_paper_topic_TopicID db:#topics/10; db:#rel_paper_topic/4/11 @vocab:rel_paper_topic_TopicID db:#topics/11; db:#rel_paper_topic/6/11 @vocab:rel_paper_topic_TopicID db:#topics/11; db:#rel_paper_topic/5/13 @vocab:rel_paper_topic_TopicID db:#topics/13; db:#rel_paper_topic/6/13 @vocab:rel_paper_topic_TopicID db:#topics/13; db:#rel_paper_topic/4/14 @vocab:rel_paper_topic_TopicID db:#topics/14; db:#rel_paper_topic/1/15 @vocab:rel_paper_topic_TopicID db:#topics/15; db:#rel_paper_topic/1/5 @vocab:rel_paper_topic_PaperID db:#papers/1; db:#rel_paper_topic/1/5 @vocab:rel_paper_topic_RelationType "1"^^http://www.w3.org/2001/XMLSchema#integer; db:#rel_paper_topic/1/5 @rdfs:label "rel_paper_topic #1/5"; db:#rel_paper_topic/1/5 @rdf:type vocab:rel_paper_topic...}
+2016-03-30 15:28:20.342 DEBUG [main][RDB2RDF.java:123] - --------------------select start-------------
+2016-03-30 15:28:22.008 DEBUG [main][RDB2RDF.java:139] - -------d2rqModel---de.fuberlin.wiwiss.d2rq.map.Mapping@456ecd1b
