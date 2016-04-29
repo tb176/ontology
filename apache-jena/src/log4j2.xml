@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- status=debug 可以查看log4j的装配过程 -->
+<configuration status="off">
+
+	<properties>
+		<property name="LOG_HOME">logs</property>
+		<!-- 日志备份目录 -->
+		<property name="BACKUP_HOME">{LOG_HOME}/backup</property>
+	</properties>
+	
+	<appenders>
+		<!-- 定义控制台输出 -->
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout>
+			<charset>utf-8</charset>
+			<Pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %level [%thread][%file:%line] - %msg%n</Pattern>
+			</PatternLayout>
+		</Console>
+		
+		
+		
+	
+		
+		<!-- ========excel包的日志=============  -->
+		<!-- sparqlLog日志 -->
+		<RollingFile name="sparqlLog" 
+			fileName="${LOG_HOME}/sparql_" 
+			filePattern="${LOG_HOME}/excel_%d{yyyy-MM-dd}.log">
+			<PatternLayout pattern="%date{yyyy-MM-dd HH:mm:ss.SSS} %level [%thread][%file:%line] - %msg%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+			</Policies>
+		</RollingFile>
+		
+		<!-- ========util包的日志=============  -->
+		<RollingFile name="utilLog" 
+			fileName="${LOG_HOME}/util_" 
+			filePattern="${LOG_HOME}/util_%d{yyyy-MM-dd}.log">
+			<PatternLayout pattern="%date{yyyy-MM-dd HH:mm:ss.SSS} %level [%thread][%file:%line] - %msg%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+			</Policies>
+		</RollingFile>
+		
+		
+	</appenders>
+		
+	
+	
+	<loggers>
+	
+		<!-- Root Logger -->
+		<root level="DEBUG">
+			<appender-ref ref="console" />
+		</root>
+		
+		<!-- ========类包的日志=============  -->	
+		<logger name="org.springframework" level="debug"> 
+			<appender-ref ref="springLog" />
+		</logger>
+		
+		
+		<!-- =======sparql包的日志=============  -->
+		<logger name="property" level="debug"> 
+			<appender-ref ref="sparqlLog" />
+		</logger>
+		
+		
+		<!-- =======util包的日志=============  -->
+		<logger name="util" level="debug"> 
+			<appender-ref ref="utilLog" />
+		</logger>
+		
+		
+	</loggers>
+	
+</configuration>

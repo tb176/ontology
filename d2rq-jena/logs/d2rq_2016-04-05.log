@@ -1,4 +1,0 @@
-2016-04-05 19:43:21.139 DEBUG [main][SparqlDemo.java:46] - --------------------读取的rdf文本内容-----------------
-2016-04-05 19:43:21.268 DEBUG [main][SparqlDemo.java:50] - sparql=PREFIX info: <http://somewhere/peopleInfo#>    SELECT ?resource  WHERE    {     ?resource info:age ?age .     FILTER (?age >= 24)    }
-2016-04-05 19:43:22.159 DEBUG [main][SparqlDemo.java:56] - ----------------sparql查询的内容------------------
-2016-04-05 19:43:22.175 DEBUG [main][SparqlDemo.java:59] - -----------results结果集=空

@@ -1,0 +1,52 @@
+---查询所有的类
+SELECT DISTINCT ?class WHERE { [] a ?class } ORDER BY ?class
+--------------------------------
+| class                        |
+================================
+| <RDF/vocab/busi_entity>      |
+| <RDF/vocab/busi_entity_sort> |
+| <RDF/vocab/busi_entity_type> |
+| <RDF/vocab/busi_field>       |
+| <RDF/vocab/connect_table>    |
+| rdf:Property                 |
+| rdfs:Class                   |
+--------------------------------
+---查询类busi_entity_sort的属性field_id对应的所有的资源和自己的属性值
+SELECT DISTINCT ?resource ?value 
+WHERE { ?resource <file:///C:/Program%20Files/d2rq-0.8.1/vocab/busi_entity_sort_field_id> ?value }
+ORDER BY ?resource ?value
+
+查询结果：
+---------------------------------------------------------------------------------
+| resource                                   | value                            |
+=================================================================================
+| <RDF/XML-ABBREV#busi_entity_sort/CHANPIN>  | <RDF/XML-ABBREV#busi_field/1001> |
+| <RDF/XML-ABBREV#busi_entity_sort/KEHU>     | <RDF/XML-ABBREV#busi_field/1001> |
+| <RDF/XML-ABBREV#busi_entity_sort/QUDAO>    | <RDF/XML-ABBREV#busi_field/1001> |
+| <RDF/XML-ABBREV#busi_entity_sort/WANGDIAN> | <RDF/XML-ABBREV#busi_field/1001> |
+---------------------------------------------------------------------------------
+
+---查询类busi_entity_sort的属性field_id对应的所有的资源和自己的属性值
+SELECT DISTINCT ?resource ?value ?name 
+WHERE { ?resource <file:///C:/Program%20Files/d2rq-0.8.1/vocab/busi_field_field_id> ?value .
+        ?resource <file:///C:/Program%20Files/d2rq-0.8.1/vocab/busi_field_field_name> ?name}
+ORDER BY ?resource ?value
+简写为
+SELECT DISTINCT ?resource ?value ?name 
+WHERE { ?resource vocab:busi_field_field_id ?value .
+        ?resource vocab:busi_field_field_name ?name}
+ORDER BY ?resource ?value
+--------------------------------------------------------
+| resource                         | value  | name     |
+========================================================
+| <RDF/XML-ABBREV#busi_field/1001> | "1001" | "XX零售银行" |
+--------------------------------------------------------
+
+SELECT DISTINCT ?property ?hasValue ?isValueOf
+WHERE {
+  { <#busi_entity_sort/CHANPIN> ?property ?hasValue }
+  UNION
+  { ?isValueOf ?property <#busi_entity_sort/CHANPIN> }
+}
+ORDER BY (!BOUND(?hasValue)) ?property ?hasValue ?isValueOf
+

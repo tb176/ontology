@@ -1,0 +1,15 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX map: <file:///C:/Program%20Files/d2rq-0.8.1/ontology.rdf/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX db: <file:///C:/Program%20Files/d2rq-0.8.1/ontology.rdf>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX vocab: <file:///C:/Program%20Files/d2rq-0.8.1/vocab/>
+
+SELECT DISTINCT ?resource ?value ?name 
+WHERE { ?resource vocab:busi_field_field_id ?value .
+        ?resource vocab:busi_field_field_name ?name}
+ORDER BY ?resource ?value
+
+
+
